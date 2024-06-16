@@ -2,7 +2,7 @@
 > a package to allow the creation of a temporary url using the `local` driver in laravel
 
 ![Packagist Version](https://img.shields.io/packagist/v/matfire/laravel-local-temp-urls?style=for-the-badge&link=https%3A%2F%2Fpackagist.org%2Fpackages%2Fmatfire%2Flaravel-local-temp-urls)
-
+![Packagist Downloads](https://img.shields.io/packagist/dm/matfire/laravel-local-temp-urls?style=for-the-badge)
 ## Features
 
 Adds a `temporaryUrl()` method to the local disk driver in [Laravel](https://laravel.com) that works like the one implemente in the `s3` driver, allowing you to generate a temporary signed url to a non public resource
