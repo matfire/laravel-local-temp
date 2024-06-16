@@ -1,0 +1,26 @@
+{
+    "name": "matfire/laravel-local-temp-urls",
+    "description": "A Laravel 11 compatible way to create a temporary url for files stored using the 'local' driver",
+    "require": {
+        "illuminate/support": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Matfire\\LaravelLocalTempUrls\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matteo Gassend",
+            "email": "mgassend@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Matfire\\LaravelLocalTempUrls\\LocalTempUrlsProvider"
+            ]
+        }
+    }
+}
